@@ -1,0 +1,17 @@
+{
+  "name": "personal_website",
+  "homepage": "https://github.com/sophie-germain/personal_website",
+  "authors": [
+    "Mario Torres <mario291187@gmail.com>"
+  ],
+  "description": "Sitio web de Mora",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

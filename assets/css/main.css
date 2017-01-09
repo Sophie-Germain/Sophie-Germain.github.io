@@ -2772,7 +2772,7 @@
 	}
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 3.5em 0 4em 0;
 	}
 
 		.wrapper > .inner {
@@ -3133,6 +3133,52 @@
 		}
 
 /* Banner 16X13*/
+
+	/*nvth*/
+	.img-fernanda{
+		width:270px;
+		height:360px;
+		position: relative;
+	}
+	.i-container{
+		width: 90px;
+		position: relative;
+		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.i-container a{
+		display: inline-block;
+		width: 30%;
+	}
+
+	.teach-container div{
+		display: inline-block;
+	}
+
+	.teach-container .img-mineria{
+		width: 30%;
+	}
+
+	.teach-container .t-courses{
+		width: 65%;
+	}
+
+	.teach-container .img-mineria span{
+		position: relative;
+		display: block;
+		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
+		height: 190px;
+		width: 190px;
+	}
+
+	.learning-container .lear-col{
+		display: inline-block;
+		width: 33%;
+		padding-left: 100px;
+	}
 
 	body.is-touch #banner {
 		background-attachment: scroll;

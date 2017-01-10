@@ -2040,7 +2040,7 @@
 		.feature-grid .feature {
 			display: inline-block;
 			float: left;
-			margin-bottom: 2em;
+			margin-bottom: 0.5em;
 			width: 50%;
 		}
 

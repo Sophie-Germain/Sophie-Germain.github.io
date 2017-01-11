@@ -3135,6 +3135,9 @@
 /* Banner 16X13*/
 
 	/*nvth*/
+	.alt strong{
+		color: #ffffff;
+	}
 	.img-fernanda{
 		width:270px;
 		height:360px;
@@ -3152,7 +3155,7 @@
 		width: 30%;
 	}
 
-	.teach-container div{
+	/*.teach-container div{
 		display: inline-block;
 	}
 
@@ -3172,6 +3175,15 @@
 		padding-right: 0;
 		height: 190px;
 		width: 190px;
+	}*/
+	.teach-feature-grid.feature-grid .feature {
+		width: 100%;
+	}
+	.teach-feature-grid.feature-grid .feature  ul{
+		margin-left: 5%;
+	}
+	.teach-feature-grid.feature-grid .feature:nth-child(odd) .content{
+		text-align: left;
 	}
 
 	.learning-container .lear-col{
@@ -3179,6 +3191,32 @@
 		width: 33%;
 		padding-left: 100px;
 	}
+
+	@media screen and (max-width: 980px) {
+
+		/*.teach-container div,.learning-container .lear-col{
+			display: block;
+			width: 85%;
+			margin: auto;
+		}
+
+		.teach-container .img-mineria{
+			width: 100%;
+			padding-bottom: 2em;
+		}
+
+		.teach-container .t-courses{
+			width: 95%;
+		}*/
+	}
+
+	@media screen and (max-width: 480px) {
+		.teach-feature-grid.feature-grid .feature .content span{
+			text-align: left;
+		}
+	}
+
+	/*end*/
 
 	body.is-touch #banner {
 		background-attachment: scroll;

@@ -3189,11 +3189,26 @@
 	.learning-container .lear-col{
 		display: inline-block;
 		width: 33%;
-		padding-left: 100px;
+		padding-left: 0;
+	}
+
+	.learning-container .lear-col .l-content{
+			position: relative;
+			text-align: left;
+			width: 90%;
+			margin: auto;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+	.learning-container .lear-col h4{
+		text-align: center;
 	}
 
 	@media screen and (max-width: 980px) {
-
+		.learning-container .lear-col{
+			padding-left: 0;
+		}
 		/*.teach-container div,.learning-container .lear-col{
 			display: block;
 			width: 85%;
@@ -3210,9 +3225,29 @@
 		}*/
 	}
 
+	@media screen and (max-width: 736px) {
+		.learning-container .lear-col{
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+
+		.learning-container .lear-col .l-content{
+			width: 50%;
+		}
+	}
+
 	@media screen and (max-width: 480px) {
-		.teach-feature-grid.feature-grid .feature .content span{
+		.teach-feature-grid.feature-grid .feature .content div{
 			text-align: left;
+		}
+
+		.feature-grid .feature .image img {
+    		max-width: 205px;
+		}
+
+		.learning-container .lear-col .l-content{
+			width: 70%;
 		}
 	}
 

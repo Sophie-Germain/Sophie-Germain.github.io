@@ -1898,6 +1898,7 @@
 		button.icon,
 		.button.icon {
 			padding-left: 1.35em;
+			padding-right: 1.35em;
 		}
 
 			input[type="submit"].icon:before,
@@ -2060,13 +2061,15 @@
 			.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
 				float: right;
 				margin-right: 5%;
-				text-align: right;
+				/*text-align: right;*/
+				text-align: justify;
 			}
 
 			.feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
 				float: left;
 				margin-left: 5%;
-				text-align: left;
+				/*text-align: left;*/
+				text-align: justify;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3143,6 +3146,10 @@
 		height:360px;
 		position: relative;
 	}
+
+	.presentation-container{
+		text-align: justify;
+	}
 	.i-container{
 		width: 90px;
 		position: relative;
@@ -3176,13 +3183,14 @@
 		height: 190px;
 		width: 190px;
 	}*/
-	.teach-feature-grid.feature-grid .feature {
+	.teach-feature-grid.feature-grid .feature, .sample-feature-grid.feature-grid .feature {
 		width: 100%;
 	}
 	.teach-feature-grid.feature-grid .feature  ul{
 		margin-left: 5%;
 	}
-	.teach-feature-grid.feature-grid .feature:nth-child(odd) .content{
+	.teach-feature-grid.feature-grid .feature:nth-child(odd) .content,
+	.sample-feature-grid.feature-grid .feature:nth-child(odd) .content{
 		text-align: left;
 	}
 

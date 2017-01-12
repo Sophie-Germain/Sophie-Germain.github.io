@@ -2780,7 +2780,7 @@
 	}
 
 	.wrapper {
-		padding: 3.5em 0 4em 0;
+		padding: 2.5em 0 4em 0;
 	}
 
 		.wrapper > .inner {
@@ -3339,7 +3339,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 14em 0 11em 0;
+				padding: 14em 0 14em 0;
 			}
 
 				#banner h2 {
@@ -3351,7 +3351,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				padding: 9em 0 9em 0;
 			}
 
 		}

@@ -2113,8 +2113,13 @@
 				display: block;
 				margin-left: 0 !important;
 				margin-right: 0 !important;
-				text-align: center !important;
+				/*text-align: center !important;*/
 				width: 100%;
+			}
+
+			.feature-grid .feature .content header,
+			.feature-grid .feature .image {
+				text-align: center !important;
 			}
 
 			.feature-grid .feature .image {
@@ -3162,35 +3167,14 @@
 		width: 30%;
 	}
 
-	/*.teach-container div{
-		display: inline-block;
-	}
-
-	.teach-container .img-mineria{
-		width: 30%;
-	}
-
-	.teach-container .t-courses{
-		width: 65%;
-	}
-
-	.teach-container .img-mineria span{
-		position: relative;
-		display: block;
-		margin: auto;
-		padding-left: 0;
-		padding-right: 0;
-		height: 190px;
-		width: 190px;
-	}*/
-	.teach-feature-grid.feature-grid .feature, .sample-feature-grid.feature-grid .feature {
+	
+	.teach-feature-grid.feature-grid .feature{
 		width: 100%;
 	}
 	.teach-feature-grid.feature-grid .feature  ul{
 		margin-left: 5%;
 	}
-	.teach-feature-grid.feature-grid .feature:nth-child(odd) .content,
-	.sample-feature-grid.feature-grid .feature:nth-child(odd) .content{
+	.teach-feature-grid.feature-grid .feature:nth-child(odd) .content{
 		text-align: left;
 	}
 
@@ -3213,24 +3197,63 @@
 		text-align: center;
 	}
 
+	.image.sample-img{
+		float: left;
+	}
+
+	.image.sample-img img{
+		max-width: 75%;
+		max-height: 75%;
+		position: relative;
+		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*.feature-grid.sample-feature-grid  .sample-container .content,
+	.feature-grid.sample-feature-grid  .sample-container .image {
+    	float: left;
+    	text-align: justify;
+	}
+
+	.feature-grid.sample-feature-grid  .sample-container .image {
+    	margin-left: 5%;
+	}*/
+
+	.sample-feature-grid {
+		position: relative;
+	}
+
+	.sample-feature-grid:after {
+		clear: both;
+		content: '';
+		display: block;
+	}
+
+	.sample-feature-grid .sample-feature {
+		position: relative;
+		display: block;
+		margin-bottom: 0.5em;
+		width: 100%;
+	}
+
+	.sample-feature-grid .sample-feature .sample-content{
+		display: inline-block;
+		margin-left: 5%;
+		text-align: justify;
+		width: 60%;
+	}
+
+	.sample-feature-grid .sample-feature .sample-img{
+		display: inline-block;
+		width: 30%;
+	}
+
+
 	@media screen and (max-width: 980px) {
 		.learning-container .lear-col{
 			padding-left: 0;
 		}
-		/*.teach-container div,.learning-container .lear-col{
-			display: block;
-			width: 85%;
-			margin: auto;
-		}
-
-		.teach-container .img-mineria{
-			width: 100%;
-			padding-bottom: 2em;
-		}
-
-		.teach-container .t-courses{
-			width: 95%;
-		}*/
 	}
 
 	@media screen and (max-width: 736px) {
@@ -3242,6 +3265,10 @@
 
 		.learning-container .lear-col .l-content{
 			width: 50%;
+		}
+
+		.sample-feature-grid .sample-feature .sample-content{
+			margin-left:0;
 		}
 	}
 
@@ -3256,6 +3283,21 @@
 
 		.learning-container .lear-col .l-content{
 			width: 70%;
+		}
+
+		.sample-feature-grid .sample-feature .sample-content{
+			display: block;
+			padding-bottom: 2.5em;
+			width: 100%;
+		}
+
+		.sample-feature-grid .sample-feature .sample-img{
+		    display: block;
+    		margin-left: 0 !important;
+    		margin-right: 0 !important;
+    		padding-bottom: 2em;
+    		text-align: center !important;
+    		width: 100%;
 		}
 	}
 

@@ -3250,6 +3250,18 @@
 	}
 
 
+	/*Contact*/
+	.contact-form{
+		position: relative;
+		width: 70%;
+		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.btn-cv:before{
+		margin-right: 0.5em;
+	}
+
 	@media screen and (max-width: 980px) {
 		.learning-container .lear-col{
 			padding-left: 0;

@@ -1809,7 +1809,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #323037;
+		background-color: #323037;/*#0d3d56*/
 		border-radius: 4px;
 		color: #ffffff !important;
 		border: 0;
@@ -2176,7 +2176,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #0D3D56;
+			/*border-color: #0D3D56;*//*nvth*/
+			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #0D3D56;
 		}
 
@@ -3146,6 +3147,13 @@
 	.alt strong{
 		color: #ffffff;
 	}
+
+	/*#nav span{
+		display: block;
+	}
+	#nav ul{
+		height: 100%;
+	}*/
 	.img-fernanda{
 		width:270px;
 		height:360px;
@@ -3210,16 +3218,6 @@
 		padding-right: 0;
 	}
 
-	/*.feature-grid.sample-feature-grid  .sample-container .content,
-	.feature-grid.sample-feature-grid  .sample-container .image {
-    	float: left;
-    	text-align: justify;
-	}
-
-	.feature-grid.sample-feature-grid  .sample-container .image {
-    	margin-left: 5%;
-	}*/
-
 	.sample-feature-grid {
 		position: relative;
 	}
@@ -3252,14 +3250,46 @@
 
 	/*Contact*/
 	.contact-form{
+		color: rgba(255,255,255,1);
 		position: relative;
-		width: 70%;
+		width: 50%;
 		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
+		text-align: justify;
 	}
+
+	.contact-form .botones{
+		text-align: center;
+		display: block;
+	}
+
+	.contact-form .contact-input{
+		/*background-color: rgba(255,255,255,0.3);*/
+		color: white;
+		border-style: solid;
+		border-color: gray;
+		border-width: 3px;
+
+	}
+	
+	.contact-form .contact-input::-webkit-input-placeholder,/* WebKit, Blink, Edge */
+	.contact-form .contact-input:-moz-placeholder,/* Mozilla Firefox 4 to 18 */
+	.contact-form .contact-input::-moz-placeholder,/* Mozilla Firefox 19+ */
+	.contact-form .contact-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   		color: rgba(255,255,255,1);
+	}
+	.contact-form .contact-input::-webkit-input-placeholder{ /* Internet Explorer 10-11 */
+   		color: rgba(255,255,255,1);
+	}
+
 	.btn-cv:before{
 		margin-right: 0.5em;
+	}
+
+	textarea.contact-input:focus{
+		border-color: #ffffff;
+		box-shadow: 0 0 0 1px #0D3D56;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3281,6 +3311,10 @@
 
 		.sample-feature-grid .sample-feature .sample-content{
 			margin-left:0;
+		}
+
+		.contact-form{
+			width:60%;
 		}
 	}
 
@@ -3310,6 +3344,10 @@
     		padding-bottom: 2em;
     		text-align: center !important;
     		width: 100%;
+		}
+
+		.contact-form{
+			width:85%;
 		}
 	}
 

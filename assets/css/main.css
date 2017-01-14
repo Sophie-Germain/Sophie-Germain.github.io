@@ -2803,7 +2803,7 @@
 
 			.wrapper.style3 header.major {
 				/*margin-bottom: 3em;*/
-				margin-bottom: 0;
+				margin-bottom: 0.5em;
 			}
 
 				.wrapper.style3 header.major h2 {
@@ -2814,7 +2814,7 @@
 
 					.wrapper.style3 header.major {
 						/*margin-bottom: 2em;*/
-						margin-bottom: 0;
+						margin-bottom: 0.5em;
 					}
 
 				}

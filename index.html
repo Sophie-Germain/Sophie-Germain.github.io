@@ -365,15 +365,17 @@
                 <!--<br><a href="CV_FerMora2016.pdf" download="CV_FerMora2016.pdf" target="_blank" class="button special icon fa-download">CV</a>-->
             </header>
             <div class = "contact-form">
-                <form action="assets/php/emailing.php" method="post" enctype="text/plain" id="contact_form">
+                <form action="http://formspree.io/a.cotton.soul@gmail.com" method="post" id="contact_form">
                     <span><b>Name:</b></span>
                     <input class="contact-input" type="text" name="name" placeholder="Your name" required>
                     <span><b>E-mail:</b></span>
-                    <input class="contact-input" type="email" name="sender" placeholder="Enter e-mail" required>
+                    <input class="contact-input" type="email" name="_replyto" placeholder="Enter e-mail" required>
                     <span><b>Subject:</b></span>
-                    <input class="contact-input" type="text" name="subject" placeholder="Enter subject" required>
+                    <input class="contact-input" type="text" name="_subject" placeholder="Enter subject" required>
                     <span><b>Comment:</b></span>
-                    <textarea class="contact-input" rows="3" name="comment" placeholder="Enter your comment here..." required></textarea><br>
+                    <textarea class="contact-input" rows="3" name="body" placeholder="Enter your comment here..." required></textarea><br>
+                    <input type="hidden" name="_next" value="index.html"/>
+                    <input type="text" name="_gotcha" style="display:none"/>
                     <span class="botones">
                         <input class="contact-btn special" type="submit" value="Send">
                         <input class="contact-btn special" type="reset" value="Reset">

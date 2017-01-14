@@ -3255,7 +3255,7 @@
 	.contact-form{
 		color: rgba(255,255,255,1);
 		position: relative;
-		width: 40%;
+		width: 35%;
 		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
@@ -3321,7 +3321,7 @@
 		}
 
 		.contact-form{
-			width:60%;
+			width:50%;
 		}
 	}
 

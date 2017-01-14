@@ -2798,7 +2798,7 @@
 			background-image: url("images/overlay.png"), url("../../images/banner3.jpg");
 			background-position: center center;
 			background-size: cover;
-			padding-bottom: 1.5em;
+			padding-bottom: 5px;
 		}
 
 			.wrapper.style3 header.major {

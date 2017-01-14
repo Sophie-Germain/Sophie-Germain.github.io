@@ -3269,6 +3269,10 @@
 		color: #ffffff;
 	}
 
+	.contact-form span{
+		display: block;
+	}
+
 	.contact-form .botones{
 		text-align: center;
 		display: block;

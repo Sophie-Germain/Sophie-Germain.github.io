@@ -3255,11 +3255,15 @@
 	.contact-form{
 		color: rgba(255,255,255,1);
 		position: relative;
-		width: 50%;
+		width: 40%;
 		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
 		text-align: justify;
+	}
+
+	.contact-form b{
+		color: #ffffff;
 	}
 
 	.contact-form .botones{

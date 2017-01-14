@@ -2798,10 +2798,12 @@
 			background-image: url("images/overlay.png"), url("../../images/banner3.jpg");
 			background-position: center center;
 			background-size: cover;
+			padding-bottom: 1.5em;
 		}
 
 			.wrapper.style3 header.major {
-				margin-bottom: 3em;
+				/*margin-bottom: 3em;*/
+				margin-bottom: 0;
 			}
 
 				.wrapper.style3 header.major h2 {
@@ -2811,7 +2813,8 @@
 				@media screen and (max-width: 1280px) {
 
 					.wrapper.style3 header.major {
-						margin-bottom: 2em;
+						/*margin-bottom: 2em;*/
+						margin-bottom: 0;
 					}
 
 				}
@@ -3255,7 +3258,7 @@
 	.contact-form{
 		color: rgba(255,255,255,1);
 		position: relative;
-		width: 35%;
+		width: 45%;
 		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
@@ -3321,7 +3324,7 @@
 		}
 
 		.contact-form{
-			width:50%;
+			width:60%;
 		}
 	}
 

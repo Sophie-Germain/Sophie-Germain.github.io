@@ -2890,7 +2890,7 @@
 				#header nav ul li {
 					border-radius: 4px;
 					display: inline-block;
-					margin-left: 2.5em;
+					margin-left: 1.5em;
 					padding-left: 0;
 				}
 
@@ -2947,7 +2947,7 @@
 
 			#header.alt h1 {
 				color: #ffffff;
-				left: 2.5em;
+				left: 2em;
 				top: 2em;
 			}
 
@@ -3065,7 +3065,7 @@
 				}
 
 				#navPanel ul li a:not(.button),
-				#navPanel ul li span:not(.button) {
+				#navPanel ul li span:not(.button):not(.dmenu) {
 					border-top: solid 1px #555;
 					color: #fff;
 					display: block;
@@ -3148,12 +3148,13 @@
 		color: #ffffff;
 	}
 
-	#nav span{
+	#nav span.dmenu{
 		display: block;
 	}
 	#nav ul li{
-		vertical-align: top;
+		vertical-align: middle;
 		text-align: center;
+		line-height: normal;
 	}
 	.img-fernanda{
 		width:270px;
@@ -3206,9 +3207,9 @@
 		text-align: center;
 	}
 
-	.image.sample-img{
+	/*.image.sample-img{
 		float: left;
-	}
+	}*/
 
 	.image.sample-img img{
 		max-width: 75%;
@@ -3241,6 +3242,7 @@
 		margin-left: 5%;
 		text-align: justify;
 		width: 60%;
+		vertical-align: top;
 	}
 
 	.sample-feature-grid .sample-feature .sample-img{

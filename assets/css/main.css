@@ -3148,12 +3148,13 @@
 		color: #ffffff;
 	}
 
-	/*#nav span{
+	#nav span{
 		display: block;
 	}
-	#nav ul{
-		height: 100%;
-	}*/
+	#nav ul li{
+		vertical-align: top;
+		text-align: center;
+	}
 	.img-fernanda{
 		width:270px;
 		height:360px;

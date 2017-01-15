@@ -2803,7 +2803,7 @@
 		}
 
 		::i-block-chrome,.wrapper.style3 {
- 			background-attachment: initial;
+ 			background-image: none;
 		}
 
 			.wrapper.style3 header.major {

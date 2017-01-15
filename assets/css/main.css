@@ -2794,12 +2794,16 @@
 		}
 
 		.wrapper.style3 {
-			
+			background-color: #0D3D56;
 			background-image: url("images/overlay.png"), url("../../images/banner3.jpg");
 			background-position: center center;
 			background-size: cover;
 			background-attachment: fixed;
 			padding-bottom: 5px;
+		}
+
+		::i-block-chrome,.wrapper.style3 {
+ 			background-attachment: initial;
 		}
 
 			.wrapper.style3 header.major {

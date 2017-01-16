@@ -2810,7 +2810,7 @@
     	height:100%;
     	background-color: #0D3D56;
     	background:url("images/overlay.png"),url("../../images/banner3.jpg") 0 0 no-repeat fixed !important;
-    	background-size:contain;
+    	background-size:cover;
 		}
 
 
@@ -3405,7 +3405,7 @@
     	height:100%;
     	background-color: #0D3D56;
     	background:url("images/overlay.png"),url("../../images/banner3.jpg") 0 0 no-repeat fixed !important;
-    	background-size:contain;
+    	background-size:cover;
 	}
 
 	.wrapper.style1{

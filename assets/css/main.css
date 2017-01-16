@@ -2802,8 +2802,9 @@
 			padding-bottom: 5px;
 		}
 		#background2 {
-    	position:fixed;
-    	z-index: -1;
+    	/*position:fixed;
+    	z-index: -1;*/
+    	display: none;
     	top:0;
     	left:0;
     	width:100%;

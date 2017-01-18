@@ -3171,6 +3171,7 @@
 
 	.presentation-container{
 		text-align: justify;
+		vertical-align: bottom;
 	}
 	.i-container{
 		width: 90px;

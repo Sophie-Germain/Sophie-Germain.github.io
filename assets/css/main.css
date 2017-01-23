@@ -3179,13 +3179,14 @@
 		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
+		padding-top:5px;
 	}
 	.i-container a{
 		display: inline-block;
 		width: 30%;
 	}
 
-	
+
 	.teach-feature-grid.feature-grid .feature{
 		width: 100%;
 	}
@@ -3291,7 +3292,7 @@
 		border-width: 3px;
 
 	}
-	
+
 	.contact-form .contact-input::-webkit-input-placeholder,/* WebKit, Blink, Edge */
 	.contact-form .contact-input:-moz-placeholder,/* Mozilla Firefox 4 to 18 */
 	.contact-form .contact-input::-moz-placeholder,/* Mozilla Firefox 19+ */
